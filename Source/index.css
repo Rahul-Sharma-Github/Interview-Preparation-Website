@@ -1,0 +1,415 @@
+
+/* Resetting the properties */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+
+/* hiding the scrollbar for all pages */
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+/* ------------------------------------------------- */
+
+
+/* Landing Page Start ( CSS ) */
+
+/* Initializing the Container as a GRID */
+
+div.grid_container {
+  display: grid;
+  grid-column-gap: 15px;
+  /* initializing two column of equal width */
+  grid-template-columns: 1fr 1fr;
+
+}
+
+/* setting up the first column */
+div.child_1 {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  
+  /* spanning 2 column */
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 1px 10px rgba(100, 100, 100, 0.5);
+  height: 32.85px;
+  background-color: #fcfaf7e5;
+  text-align: center;
+}
+
+/* setting up the list items properties */
+li.item {
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+/* applying some properties on text */
+li a {
+  display: block;
+  text-align: center;
+  padding: 2px 4px 2px 4px;
+  /* border: 1px solid black; */
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+/* applying hover effect on navbar menu */
+li a:hover{
+  color: #f36b7f;
+}
+
+
+li a.active{
+  color: #f36b7f;
+}
+
+
+/* setting up the second column */
+div.child_2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  /* grid-column: 1 / span 2; */
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+
+span.one {
+  text-align: center;
+  font-size: 50px;
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+span.two {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: sans-serif;
+  /* border: 1px solid black; */
+  color: #f36b7f;
+  
+}
+
+/* increasing the font size of 1st letter for child_2 column */
+span.fl {
+  font-size: 60px;
+}
+
+/* changing the color of (?) Question mark */
+span.qmark {
+  color: rgba(54, 46, 46, 0.589);
+}
+
+/* applying the properties on Button */
+div.btn {
+  /* border: 2px solid black; */
+  display: block;
+  width: 60%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Segoe UI";
+  font-weight: 600;
+}
+
+div.btn a{
+  display: block;
+  width: 100%;
+  margin: 0px;
+  border: 1px solid black;
+  padding: 16px 16px 16px 16px;
+}
+
+/* applying hover effect on CTA Button of Page 1*/
+div.btn a:hover{
+  color: rgba(255, 255, 255, 0.938);
+  background-color: #0e0d0e;
+}
+
+
+
+/* applying some properties for button text */
+div.btn a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* setting up the 3rd column */
+div.child_3 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw; */
+  height: 95vh;
+
+  /* setting up the background image */
+
+  background: url("/Image/Vector-Image.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+/* Landing Page END ( CSS ) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PREPARATION PROCESS PAGE START ( CSS ) */
+
+/* initialize second page as a grid container */
+div.grid_container-1 {
+  display: grid;
+  grid-row-gap: 15px;
+  /* dividing the 3 rows in below fraction */
+  grid-template-rows: 2fr 4fr 2fr;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+  /* setting up the container/page Height to 100vh (viewport height) */
+  height: 100vh;
+  /* border: 1px solid black; */
+}
+
+div.rows {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h2.title {
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-variant: small-caps;
+  box-shadow: 0px 2px 4px gray;
+  width: 100%;
+}
+
+div.cards {
+  /* border: 1px solid black; */
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  height: fit-content;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0px 2px 4px gray;
+}
+
+div.icon {
+  /* border: 1px solid black; */
+  padding: 10px;
+  margin: 5px;
+}
+
+div.icon-title {
+  /* border: 1px solid black; */
+  padding: 10px;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  margin: 5px;
+}
+
+div.description {
+  /* border: 1px solid black; */
+  padding: 10px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  margin: 5px;
+}
+
+div.btn-second {
+  font-size: 2rem;
+  margin: 20px;
+}
+
+div.btn-second a{
+  display: block;
+  width: 100%;
+  padding: 10px 60px 10px 60px;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Segoe UI";
+  border: 1px solid black;
+
+}
+
+div.btn-second a:hover{
+  color: rgba(255, 255, 255, 0.938);
+  background-color: #0e0d0e;
+}
+/* PREPARATION PROCESS PAGE END ( CSS ) */
+
+
+
+
+
+
+
+
+
+
+
+
+/* EXPLORE MENU PAGE START ( CSS ) */
+
+
+div.grid_container-2 {
+  visibility: hidden;
+  background-color: #fcfaf7;
+  position: absolute;
+  top: 0;;
+  left: 0;
+  right: 0;
+
+  display: grid;
+  grid-row-gap: 15px;
+  /* dividing the 2 rows in below fraction */
+  grid-template-rows: 1fr 5fr;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+  /* setting up the container/page Height to 100vh (viewport height) */
+  height: 100vh;
+  /* border: 1px solid black; */
+
+  overflow-y: scroll;
+  
+  
+}
+
+div.rows-1 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+h2.title-1 {
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  font-variant: small-caps;
+  box-shadow: 0px 2px 4px gray;
+  width: 100%;
+}
+
+div.cards-1 {
+  /* border: 1px solid black; */
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  height: auto;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0px 2px 4px gray;
+}
+
+div.icon-title-1 {
+  /* border: 1px solid black; */
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  margin: 5px;
+}
+
+div.description-1 {
+  
+  /* border: 1px solid black; */
+  padding: 10px;
+  font-family: "Segoe UI";
+  font-weight: 400;
+  margin: 5px;
+}
+
+div.description-1 a{
+  display: block;
+  margin: 10px;
+  /* border: 1px solid black; */
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* EXPLORE MENU PAGE START ( CSS ) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Aptitude Page Starts Here (CSS) */
+
+
+
+
+
+/* Aptitude Page Ends Here (CSS) */

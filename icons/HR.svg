@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L110 0L110 110L0 110L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Scroll-icon">
+    <path d="M0 0L110 0L110 110L0 110L0 0Z" id="Background" fill="none" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M0 18.3333L29.7917 18.3333L29.7917 9.16666C29.7917 4.10437 25.6873 0 20.625 0L0 0L0 18.3333L0 18.3333Z" transform="translate(71.041626 13.75)" id="Shape" fill="#64B5F6" stroke="none" />
+      <path d="M68.75 0L9.16667 0C4.10438 0 0 4.10437 0 9.16667L0 73.3333C0 78.3956 4.10438 82.5 9.16667 82.5L50.4167 82.5C55.479 82.5 59.5833 78.3956 59.5833 73.3333L59.5833 9.16667C59.5833 4.10437 63.6877 0 68.75 0L68.75 0Z" transform="translate(22.916626 13.75)" id="Shape" fill="#BBDEFB" stroke="none" />
+      <path d="M27.5 0L59.5833 0L59.5833 4.58333L27.5 4.58333L27.5 0ZM50.4167 11.4584L27.5 11.4584L27.5 16.0417L50.4167 16.0417L50.4167 11.4584ZM27.5 22.9166L59.5833 22.9166L59.5833 27.5L27.5 27.5L27.5 22.9166ZM50.4167 34.375L27.5 34.375L27.5 38.9583L50.4167 38.9583L50.4167 34.375ZM9.16667 64.1667L64.1667 64.1667C59.1044 64.1667 55 60.0623 55 55L55 48.125L0 48.125L0 55C0 60.0623 4.10438 64.1667 9.16667 64.1667Z" transform="translate(9.166626 32.083374)" id="Shape" fill="#64B5F6" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
