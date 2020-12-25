@@ -392,6 +392,10 @@ div.description-1 a{
   font-weight: 600;
 }
 
+div.description-1 a:hover{
+  color: #f55e75;
+}
+
 /* EXPLORE MENU PAGE START ( CSS ) */
 
 
