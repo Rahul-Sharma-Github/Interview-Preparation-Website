@@ -129,12 +129,10 @@ span.one {
 
 span.two {
   position: absolute;
-  top: 120px;
-  padding-left: 25px;
-  padding-right: 25px;
+  top: 125px;
   width: 100%;
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   /* border: 1px solid black; */
