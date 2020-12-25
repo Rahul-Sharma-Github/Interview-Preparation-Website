@@ -17,14 +17,13 @@
 }
 
 
-
-
-
-
 /* ------------------------------------------------- */
+/*  */
+/*  */
+/*  */
 
-/*  */
-/*  */
+
+
 /* Responsive Designing Starts Here */
 
 
@@ -53,7 +52,7 @@ div.child_1 {
   /* spanning 2 column */
   grid-column: 1 / span 2;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   box-shadow: 0px 1px 10px rgba(100, 100, 100, 0.5);
   height: 8vh;
@@ -89,11 +88,9 @@ li a:hover{
   color: #f36b7f;
 }
 
-
 li a.active{
   color: #f36b7f;
 }
-
 
 /* setting up the second column */
 div.child_2 {
@@ -104,7 +101,6 @@ div.child_2 {
   align-items: center;
   justify-content: center;
   height: 92vh;
-
 }
 
 /* setting up the second column's Background */
@@ -122,7 +118,7 @@ div.child_2::before{
 
 span.one {
   position: absolute;
-  top: 60px;
+  top: 70px;
   text-align: center;
   font-size: 25px;
   /* border: 1px solid black; */
@@ -143,7 +139,6 @@ span.two {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   /* border: 1px solid black; */
   color: #f36b7f;
-  
 }
 
 /* increasing the font size of 1st letter for child_2 column */
@@ -162,7 +157,7 @@ div.btn {
   display: block;
   width: 70%;
   position: absolute;
-  bottom: 70px;
+  bottom: 40px;
   text-align: center;
   font-size: 20px;
   font-family: "Segoe UI";
@@ -183,8 +178,6 @@ div.btn a:hover{
   background-color: #0e0d0e;
 }
 
-
-
 /* applying some properties for button text */
 div.btn a {
   list-style: none;
@@ -192,30 +185,15 @@ div.btn a {
   color: black;
 }
 
+
 /* setting up the 3rd column */
 div.child_3 {
-  
-  /* border: 1px solid black; */
-
-  /* setting up the background image */
-
-  /* background: url("/Image/Vector-Image.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain; */
-
   /* hiding the child_3 Grid_Column */
   display: none;
+  visibility: hidden;
 }
 
 /* Landing Page END ( CSS ) */
-
-
-
-
-
-
-
 
 
 
@@ -327,10 +305,6 @@ div.btn-second a:hover{
 
 
 
-
-
-
-
 /* EXPLORE MENU PAGE START ( CSS ) */
 
 
@@ -354,8 +328,6 @@ div.grid_container-2 {
   /* border: 1px solid black; */
 
   overflow-y: scroll;
-  
-  
 }
 
 div.rows-1 {
@@ -425,17 +397,73 @@ div.description-1 a:hover{
 }
 
 /* EXPLORE MENU PAGE END ( CSS ) */
-
-
-
-
-
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 767.98px) { 
@@ -605,13 +633,6 @@ div.child_3 {
 
 
 
-
-
-
-
-
-
-
 /* PREPARATION PROCESS PAGE START ( CSS ) */
 
 /* initialize second page as a grid container */
@@ -715,10 +736,6 @@ div.btn-second a:hover{
 
 
 
-
-
-
-
 /* EXPLORE MENU PAGE START ( CSS ) */
 
 
@@ -742,8 +759,6 @@ div.grid_container-2 {
   /* border: 1px solid black; */
 
   overflow-y: scroll;
-  
-  
 }
 
 div.rows-1 {
@@ -813,10 +828,6 @@ div.description-1 a:hover{
 }
 
 /* EXPLORE MENU PAGE END ( CSS ) */
-
-
-
-
 
 
 
