@@ -261,6 +261,7 @@ div.icon-title {
   padding: 10px;
   font-family: "Segoe UI";
   font-weight: 700;
+  font-size: 20px;
   margin: 5px;
 }
 
@@ -269,6 +270,7 @@ div.description {
   padding: 10px;
   font-family: "Segoe UI";
   font-weight: 400;
+  font-size: 18px;
   margin: 5px;
 }
 
