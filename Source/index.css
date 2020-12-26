@@ -73,7 +73,7 @@ li.item {
 li a {
   display: block;
   text-align: center;
-  padding: 2px 4px 2px 4px;
+  padding: 10px 0px 10px 0px;
   /* border: 1px solid black; */
   text-decoration: none;
   color: rgba(0, 0, 0, 0.925);
@@ -226,12 +226,13 @@ div.rows {
 
 h2.title {
   /* border: 1px solid black; */
+  padding-top: 1rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   font-variant: small-caps;
-  box-shadow: 0px 2px 4px gray;
+  box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.534);
   width: 100%;
 }
 
