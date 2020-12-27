@@ -18,9 +18,8 @@
 
 
 /* ------------------------------------------------- */
-/*  */
-/*  */
-/*  */
+
+
 
 
 
@@ -433,45 +432,7 @@ div.description-1 a:hover{
 
  
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 767.98px) { 
-
+@media (min-width: 576px) and (max-width: 1024px) { 
   /* Landing Page Start ( CSS ) */
 
 /* Initializing the Container as a GRID */
@@ -848,5 +809,45 @@ div.description-1 a:hover{
 
 
 /* Aptitude Page Ends Here (CSS) */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1025px) { 
+
+  
 
  }
