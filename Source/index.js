@@ -4,6 +4,9 @@ window.addEventListener("resize", Welcome);
 // This Function Simply Replace the Navbar Menu's Text from "REGISTER HERE" to "REGISTER" for Better Mobile Experience
 function Welcome()
 {
+    // just for checking EventListner called or Not ?
+    console.log("EventListner Called..!");
+
     // just for checking function called or Not ?
     console.log("onload() Called..!");
 
