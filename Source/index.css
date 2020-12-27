@@ -341,12 +341,12 @@ div.rows-1 {
 }
 
 h2.title-1 {
-  padding: 10px 0px 5px 0px;
+  padding: 10px 5px 5px 5px;
   /* border: 1px solid black; */
   text-align: center;
   font-size: 1.5rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-variant: small-caps;
   box-shadow: 0px 1px 4px gray;
   width: 100%;
@@ -363,15 +363,15 @@ div.cards-1 {
   height: auto;
   text-align: center;
   margin: 10px;
-  box-shadow: 0px 2px 4px gray;
+  box-shadow: 0px 2px 4px rgb(236, 212, 212);
 }
 
 div.icon-title-1 {
-  /* border: 1px solid black; */
+  box-shadow: 0px 1px #f5c3ca;
   padding: 10px;
   font-family: sans-serif;
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 600;
+  font-size: 18px;
   margin: 5px;
 }
 
@@ -380,6 +380,7 @@ div.description-1 {
   /* border: 1px solid black; */
   padding: 10px;
   font-family: "Segoe UI";
+  font-size: 16px;
   font-weight: 400;
   margin: 5px;
 }
