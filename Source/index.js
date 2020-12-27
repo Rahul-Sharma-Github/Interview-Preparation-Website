@@ -1,3 +1,22 @@
+// This Function Simply Replace the Navbar Menu's Text from "REGISTER HERE" to "REGISTER" for Better Mobile Experience
+function Welcome()
+{
+    // just for checking function called or Not.
+    console.log("onload() Called..!");
+
+    let txt=document.getElementById("reg").innerText;
+    console.log("text stored in txt variable =",txt);
+    console.log("Replacing the Text.....");
+    let newtxt=txt.replace("REGISTER HERE","REGISTER");
+    document.getElementById("reg").innerText=newtxt;
+    console.log("Text Replaced with 'REGISTER'");
+
+}
+
+
+
+
+
 
 // This Function Show & Hide the EXPLORE Menu On Mouse Click
 function showHide() 
@@ -18,7 +37,6 @@ function showHide()
         document.getElementById("3").style.visibility="visible";
     }
 }
-
 
 
 
