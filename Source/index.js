@@ -4,10 +4,20 @@ function Welcome()
     // just for checking function called or Not ?
     console.log("onload() Called..!");
 
+    // Storing "REGISTER HERE" into 'txt' Variable using ID  
     let txt=document.getElementById("reg").innerText;
+
     console.log("text stored in txt variable =",txt);
+    
+    
     console.log("Replacing the Text.....");
+    
+    // Declared 'newtxt' variable
+    // Replacing the text using replace() method
+    // Storing the new text(REGISTER) into 'newtxt' Variable
     let newtxt=txt.replace("REGISTER HERE","REGISTER");
+
+    // Finally Storing the new text(REGISTER)
     document.getElementById("reg").innerText=newtxt;
     console.log("Text Replaced with 'REGISTER'");
 

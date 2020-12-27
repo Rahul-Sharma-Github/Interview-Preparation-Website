@@ -137,6 +137,7 @@ span.two {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   /* border: 1px solid black; */
   color: #f36b7f;
+  padding: 0px 10px 0px 10px;
 }
 
 /* increasing the font size of 1st letter for child_2 column */
