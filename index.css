@@ -645,7 +645,7 @@ div.cards {
   height: fit-content;
   text-align: center;
   margin: 10px;
-  box-shadow: 0px 2px 4px gray;
+  box-shadow: 0px 2px 4px #f36b7f;
 }
 
 div.icon {
@@ -758,11 +758,12 @@ div.cards-1 {
   height: auto;
   text-align: center;
   margin: 10px;
-  box-shadow: 0px 2px 4px gray;
+  box-shadow: 0px 2px 4px rgb(236, 212, 212);
 }
 
 div.icon-title-1 {
   /* border: 1px solid black; */
+  box-shadow: 0px 1px #f5c3ca;
   padding: 10px;
   font-family: sans-serif;
   font-weight: 700;
@@ -1062,7 +1063,7 @@ div.cards {
   height: fit-content;
   text-align: center;
   margin: 10px;
-  box-shadow: 0px 2px 4px gray;
+  box-shadow: 0px 2px 4px #f36b7f;
 }
 
 div.icon {
@@ -1175,11 +1176,12 @@ div.cards-1 {
   height: auto;
   text-align: center;
   margin: 10px;
-  box-shadow: 0px 2px 4px gray;
+  box-shadow: 0px 2px 4px rgb(236, 212, 212);
 }
 
 div.icon-title-1 {
   /* border: 1px solid black; */
+  box-shadow: 0px 1px #f5c3ca;
   padding: 10px;
   font-family: sans-serif;
   font-weight: 700;
