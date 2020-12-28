@@ -107,7 +107,7 @@ div.child_2::before{
   content: "";
   z-index: -1;
   position: absolute;
-  background: url("/Image/Vector-Image.jpg");
+  background: url("Image/Vector-Image.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -584,7 +584,7 @@ div.child_3 {
 
   /* setting up the background image */
 
-  background: url("/Image/Vector-Image.jpg");
+  background: url("Image/Vector-Image.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1001,7 +1001,7 @@ div.child_3 {
 
   /* setting up the background image */
 
-  background: url("/Image/Vector-Image.jpg");
+  background: url("Image/Vector-Image.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
