@@ -308,14 +308,13 @@ div.btn-second a:hover{
 
 
 div.grid_container-2 {
-  visibility: hidden;
   background-color: #fcfaf7;
   position: absolute;
   top: 0;;
   left: 0;
   right: 0;
 
-  display: grid;
+  
   /* grid-row-gap: 15px; */
   /* dividing the 2 rows in below fraction */
   grid-template-rows: 1fr 5fr;
@@ -699,14 +698,14 @@ div.btn-second a:hover{
 
 
 div.grid_container-2 {
-  visibility: hidden;
+  
   background-color: #fcfaf7;
   position: absolute;
   top: 0;;
   left: 0;
   right: 0;
 
-  display: grid;
+  
   grid-row-gap: 15px;
   /* dividing the 2 rows in below fraction */
   grid-template-rows: 1fr 5fr;
@@ -1115,14 +1114,14 @@ div.btn-second a:hover{
 
 
 div.grid_container-2 {
-  visibility: hidden;
+  
   background-color: #fcfaf7;
   position: absolute;
   top: 0;;
   left: 0;
   right: 0;
 
-  display: grid;
+
   grid-row-gap: 15px;
   /* dividing the 2 rows in below fraction */
   grid-template-rows: 1fr 5fr;
@@ -1134,6 +1133,7 @@ div.grid_container-2 {
   /* border: 1px solid black; */
 
   overflow-y: scroll;
+  
 }
 
 div.rows-1 {

@@ -1,20 +1,31 @@
+// After Loading the Website the Display property will become 'none'
+document.querySelector("div.grid_container-2").style.display="none";
 
-//On Every Resize Event the  Welcome() Funtion Called
+
+
+
+
+
+
+
+
+//On Every Resize Event the  Welcome() Funtion will be Call
 window.addEventListener("resize", Welcome);
 // This Function Simply Replace the Navbar Menu's Text from "REGISTER HERE" to "REGISTER" for Better Mobile Experience
 function Welcome()
 {
+    // document.querySelector("div.grid_container-2").style.display="none";
     // just for checking EventListner called or Not ?
-    console.log("EventListner Called..!");
+    // console.log("EventListner Called..!");
 
     // just for checking function called or Not ?
-    console.log("onload() Called..!");
+    // console.log("onload() Called..!");
 
     
 
     // Storing Browser Width in Variable 'vw'
     let vw=document.documentElement.clientWidth;
-    console.log(vw);
+    console.log("Window's Width is = "+vw);
 
     // if Browser width is less than 575.98px then 
     
@@ -22,10 +33,10 @@ function Welcome()
         // Storing "REGISTER HERE" into 'txt' Variable using ID  
     let txt=document.getElementById("reg").innerText;
 
-    console.log("text stored in txt variable =",txt);
+    // console.log("text stored in txt variable =",txt);
     
     
-    console.log("Replacing the Text.....");
+    // console.log("Replacing the Text.....");
     
     // Declared 'newtxt' variable
     // Replacing the text using replace() method
@@ -34,13 +45,13 @@ function Welcome()
 
     // Finally Storing the new text(REGISTER)
     document.getElementById("reg").innerText=newtxt;
-    console.log("Text Replaced with 'REGISTER'");
+    // console.log("Text Replaced with 'REGISTER'");
     } else {
         // if Browser width is greater than 757.98px than False part(else) executes
-        console.log("Client Width is Greater than 575.98px");
+        // console.log("Window's Width is Greater than 575.98px");
         txt="REGISTER HERE"
         document.getElementById("reg").innerText=txt;
-        console.log(txt);
+        // console.log(txt);
     }
 }
 
@@ -49,24 +60,23 @@ function Welcome()
 
 
 
-// This Function Show & Hide the EXPLORE Menu On Mouse Click
+// On Click Event on Explore Menu the showHide() will be call
+let explore=document.getElementById("explore");
+// console.log(explore);
+
+explore.addEventListener("click",showHide);
+
+// This Function will Show & Hide the EXPLORE Menu On Mouse Click
 function showHide() 
-{
+{   
+    console.log(document.querySelector("div.grid_container-2"));
 
-    // to check function is called or Not ? 
-    console.log("Function Called.");
-
-    // checking the visibility of explore menu 
-    // if visibility is not hidden then setting the visibility to hidden 
-    if(document.getElementById("3").style.visibility!=="hidden")
-    {
-        document.getElementById("3").style.visibility="hidden";
+    if (document.querySelector("div.grid_container-2").style.display!=="none") {
+        document.querySelector("div.grid_container-2").style.display="none";
+    } else {
+        document.querySelector("div.grid_container-2").style.display="grid";
     }
-    else
-    {
-        // else set visibility of explore menu to visible
-        document.getElementById("3").style.visibility="visible";
-    }
+    
 }
 
 
