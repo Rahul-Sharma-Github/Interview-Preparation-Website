@@ -1,28 +1,24 @@
 // After Loading the Website the Display property of Explore Menu will become 'none'
 document.querySelector("div.grid_container-2").style.display="none";
-// document.getElementById("Register").style.display="none";
+
+// After Loading the Website the Display property of Registration Form will become 'none'
+document.getElementById("Register").style.display="none";
 
 
 
 
+
+// -----------------------------------------------------------
 
 
 
 
 //On Every Resize Event the  Welcome() Funtion will be Call
 window.addEventListener("resize", Welcome);
+
 // This Function Simply Replace the Navbar Menu's Text from "REGISTER HERE" to "REGISTER" for Better Mobile Experience
 function Welcome()
 {
-    // document.querySelector("div.grid_container-2").style.display="none";
-    // just for checking EventListner called or Not ?
-    // console.log("EventListner Called..!");
-
-    // just for checking function called or Not ?
-    // console.log("onload() Called..!");
-
-    
-
     // Storing Browser Width in Variable 'vw'
     let vw=document.documentElement.clientWidth;
     console.log("Window's Width is = "+vw);
@@ -33,9 +29,7 @@ function Welcome()
         // Storing "REGISTER HERE" into 'txt' Variable using ID  
     let txt=document.getElementById("reg").innerText;
 
-    // console.log("text stored in txt variable =",txt);
-    
-    
+
     // console.log("Replacing the Text.....");
     
     // Declared 'newtxt' variable
@@ -43,15 +37,14 @@ function Welcome()
     // Storing the new text(REGISTER) into 'newtxt' Variable
     let newtxt=txt.replace("REGISTER HERE","REGISTER");
 
-    // Finally Storing the new text(REGISTER)
+    // Finally Storing the new text(REGISTER) into Top Navbar
     document.getElementById("reg").innerText=newtxt;
-    // console.log("Text Replaced with 'REGISTER'");
+    
     } else {
-        // if Browser width is greater than 757.98px than False part(else) executes
-        // console.log("Window's Width is Greater than 575.98px");
+        // if Browser width is greater than 757.98px than (else Part) executes
+        
         txt="REGISTER HERE"
         document.getElementById("reg").innerText=txt;
-        // console.log(txt);
     }
 }
 
@@ -60,17 +53,15 @@ function Welcome()
 
 
 
-// On Click Event on Explore Menu the showHide() will be call
+// Storing the Element in Variable 'explore'
 let explore=document.getElementById("explore");
-// console.log(explore);
 
+// adding the click event on Explore Menu of Top Navbar
 explore.addEventListener("click",showHide);
 
-// This Function will Show & Hide the EXPLORE Menu On Mouse Click
+//Function to show & hide the Explore Menu
 function showHide() 
 {   
-    console.log(document.querySelector("div.grid_container-2"));
-
     if (document.querySelector("div.grid_container-2").style.display!=="none") {
         document.querySelector("div.grid_container-2").style.display="none";
     } else {
@@ -87,11 +78,14 @@ function showHide()
 
 
 
-
+// Storing the Elements in Variables
 let regform=document.getElementById("Register");
 let register=document.getElementById("reg");
 
+// Adding the Click Event on Register Menu of Top Navbar
 register.addEventListener("click",RegForm);
+
+// Function to Show & Hide the Registration Form
 function RegForm() 
 {   
     console.log(document.getElementById("Register"));
