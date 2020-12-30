@@ -1,4 +1,4 @@
-// After Loading the Website the Display property will become 'none'
+// After Loading the Website the Display property of Explore Menu will become 'none'
 document.querySelector("div.grid_container-2").style.display="none";
 
 
