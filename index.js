@@ -1,6 +1,6 @@
 // After Loading the Website the Display property of Explore Menu will become 'none'
 document.querySelector("div.grid_container-2").style.display="none";
-
+document.getElementById("Register").style.display="none";
 
 
 
@@ -81,3 +81,25 @@ function showHide()
 
 
 
+
+
+
+
+
+
+
+let regform=document.getElementById("Register");
+let register=document.getElementById("reg");
+
+register.addEventListener("click",RegForm);
+function RegForm() 
+{   
+    console.log(document.getElementById("Register"));
+
+    if (regform.style.display!=="none") {
+        regform.style.display="none";
+    } else {
+        regform.style.display="flex";
+    }
+    
+}

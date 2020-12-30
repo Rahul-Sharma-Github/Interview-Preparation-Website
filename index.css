@@ -401,7 +401,14 @@ div.description-1 a:hover{
 
 
 
-
+#Register{
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
 
