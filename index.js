@@ -1,6 +1,6 @@
 // After Loading the Website the Display property of Explore Menu will become 'none'
 document.querySelector("div.grid_container-2").style.display="none";
-document.getElementById("Register").style.display="none";
+// document.getElementById("Register").style.display="none";
 
 
 

@@ -408,7 +408,27 @@ div.description-1 a:hover{
   position: absolute;
   top: 0;
   left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
+
+h2.mainTitle{
+  color: white;
+}
+
+h4.subTitle{
+  color: white;
+}
+
+form.form{
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 
@@ -795,22 +815,17 @@ div.description-1 a:hover{
 
 /* EXPLORE MENU PAGE END ( CSS ) */
 
+#Register{
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
-
-
-
-
-
-
-/* Aptitude Page Starts Here (CSS) */
-
-
-
-
-
-/* Aptitude Page Ends Here (CSS) */
- }
+}
 
 
 
@@ -1213,19 +1228,15 @@ div.description-1 a:hover{
 /* EXPLORE MENU PAGE END ( CSS ) */
 
 
+#Register{
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-
-
-
-
-
-
-/* Aptitude Page Starts Here (CSS) */
-
-
-
-
-
-/* Aptitude Page Ends Here (CSS) */  
+ 
 
  }
