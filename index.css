@@ -1430,10 +1430,6 @@ button.btn{
   position: absolute;
   top: 0;
   left: 0;
-
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
     
 #aptitudeContainer h1{
@@ -1444,17 +1440,55 @@ button.btn{
   justify-content: center;
 
   color: rgba(255, 247, 247, 0.945);
-  padding: 50px;
+  padding: 50px 5px 10px 5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-div.categoriesList{
+div.categoriesContainer{
   border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 100%;
+}
+
+button.previousBtn{
+  padding: 15px;
+  border: 1px solid yellow;
+  justify-content: flex-start;
+}
+
+ul.listContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-content: flex-start;
+
+  border: 1px solid red;
+  
+  width: 90%;
+}
+
+li.lists{
+  list-style: none;
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  margin: 10px;
+  outline: none;
+  text-align: center;
+  flex-shrink: 0;
 }
 
 
-
-
+button.nextBtn{
+  justify-content: flex-end;
+  padding: 15px;
+  border: 1px solid yellow;
+}
 
 
 /* Aptitude Test PAGE End */
