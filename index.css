@@ -1415,4 +1415,49 @@ button.btn{
 /* Registration Form PAGE End */
 
 
+
+
+
+
+
+
+/* Aptitude Test PAGE Start */
+
+#aptitudeContainer{
+  width: 100vw;
+  height: 100vh;
+  background: #f7727d;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+    
+#aptitudeContainer h1{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: rgba(255, 247, 247, 0.945);
+  padding: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.categoriesList{
+  border: 1px solid black;
+}
+
+
+
+
+
+
+/* Aptitude Test PAGE End */
+
+
  }
