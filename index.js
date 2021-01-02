@@ -72,7 +72,6 @@ function showHide()
         AptitudeContainer.style.display="none";
         regform.style.display="none";
     }
-    
 }
 
 
