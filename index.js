@@ -4,7 +4,8 @@ document.querySelector("div.grid_container-2").style.display="none";
 // After Loading the Website the Display property of Registration Form will become 'none'
 document.getElementById("Register").style.display="none";
 
-
+// After Loading the Website the Display property of Registration Form will become 'none'
+document.getElementById("aptitudeContainer").style.display="none";
 
 
 
@@ -53,6 +54,8 @@ function Welcome()
 
 
 
+//Function to show & hide the Explore Menu
+
 // Storing the Element in Variable 'explore'
 let explore=document.getElementById("explore");
 
@@ -66,6 +69,8 @@ function showHide()
         document.querySelector("div.grid_container-2").style.display="none";
     } else {
         document.querySelector("div.grid_container-2").style.display="grid";
+        AptitudeContainer.style.display="none";
+        regform.style.display="none";
     }
     
 }
@@ -76,7 +81,7 @@ function showHide()
 
 
 
-
+// Function to Show & Hide the Registration Form
 
 // Storing the Elements in Variables
 let regform=document.getElementById("Register");
@@ -94,6 +99,70 @@ function RegForm()
         regform.style.display="none";
     } else {
         regform.style.display="flex";
+        document.querySelector("div.grid_container-2").style.display="none";
+        AptitudeContainer.style.display="none";
     }
     
 }
+
+
+
+
+
+
+
+
+
+//Function to show & hide the Aptitude Test Page
+
+// Storing Elements in Variable
+
+// storing 3 Classes of different <a> tag but with same name in 3 different Variable
+let aptitudeMenu=document.getElementsByClassName("aptMenu")[0];
+
+let aptitudeMenu1=document.getElementsByClassName("aptMenu1")[0];
+
+let aptitudeMenu2=document.getElementsByClassName("aptMenu2")[0];
+
+// storing aptitudeContainer in AptitudeContainer Variable
+let AptitudeContainer=document.getElementById("aptitudeContainer");
+
+
+// function to show & hide the Aptitude Test Page
+aptitudeMenu.addEventListener("click",aptitudeShowHide);
+aptitudeMenu1.addEventListener("click",aptitudeShowHide);
+aptitudeMenu2.addEventListener("click",aptitudeShowHide);
+
+function aptitudeShowHide(){
+    if (AptitudeContainer.style.display!=="none") {
+        AptitudeContainer.style.display="none";
+        
+    } else {
+        AptitudeContainer.style.display="block";
+        regform.style.display="none";
+        document.querySelector("div.grid_container-2").style.display="none";
+    }
+}
+
+
+
+
+// function to scroll horizontally left & Right on button Click
+
+// storing the previous & Next Button element in Variable
+let pBtn=document.getElementById("pBtn");
+let nBtn=document.getElementById("nBtn");
+
+let listContain=document.getElementById("listContain");
+
+nBtn.addEventListener("click",function(){
+    listContain.scrollLeft += 100;
+})
+
+pBtn.addEventListener("click",function(){
+    listContain.scrollLeft -= 100;
+})
+
+
+
+
