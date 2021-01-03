@@ -69,10 +69,12 @@ function showHide()
 {   
     if (document.querySelector("div.grid_container-2").style.display!=="none") {
         document.querySelector("div.grid_container-2").style.display="none";
+        document.getElementById("2").style.display="grid";
     } else {
         document.querySelector("div.grid_container-2").style.display="grid";
         AptitudeContainer.style.display="none";
         regform.style.display="none";
+        document.getElementById("2").style.display="none";
     }
 }
 
@@ -98,10 +100,12 @@ function RegForm()
 
     if (regform.style.display!=="none") {
         regform.style.display="none";
+        document.getElementById("2").style.display="grid";
     } else {
         regform.style.display="flex";
         document.querySelector("div.grid_container-2").style.display="none";
         AptitudeContainer.style.display="none";
+        document.getElementById("2").style.display="none";
     }
     
 }
@@ -137,11 +141,12 @@ aptitudeMenu2.addEventListener("click",aptitudeShowHide);
 function aptitudeShowHide(){
     if (AptitudeContainer.style.display!=="none") {
         AptitudeContainer.style.display="none";
-        
+        document.getElementById("2").style.display="grid";
     } else {
         AptitudeContainer.style.display="block";
         regform.style.display="none";
         document.querySelector("div.grid_container-2").style.display="none";
+        document.getElementById("2").style.display="none";
     }
 }
 
