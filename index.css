@@ -502,12 +502,13 @@ button.btn{
   justify-content: center;
 
   color: #fff;
-  padding: 55px 5px 10px 5px;
+  margin: 55px 0px 5px 0px;
+
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 div.categoriesContainer{
-  /* border: 1px solid black; */
+  border: 1px solid black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -533,7 +534,7 @@ ul.listContainer{
   overflow-y: hidden;
   justify-content: flex-start;
 
-  /* /* border: 1px solid red; */ 
+  /* border: 1px solid red;  */
   white-space: nowrap;
   
   width: 90%;
@@ -552,6 +553,7 @@ li.lists{
   margin: 10px;
   outline: none;
   text-align: center;
+  align-items: center;
   flex-shrink: 0;
 }
 
@@ -567,7 +569,35 @@ button.nextBtn{
 }
 
 
+
+/* Question & Answer Main Container Start */
+
+#MainQAContainer{
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 73vh;
+  border: 1px solid black;
+  margin: 5px 0px 5px 0px;
+
+}
+
+/* Question & Answer Main Container End */
+
+
+
+
 /* Aptitude Test PAGE End */
+
+
+
+
+
+
+
+
+
 
 
 }
