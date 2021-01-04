@@ -6,9 +6,11 @@ document.querySelector("div.grid_container-2").style.display="none";
 // After Loading the Website the Display property of Registration Form will become 'none'
 document.getElementById("Register").style.display="none";
 
-// After Loading the Website the Display property of Registration Form will become 'none'
+// After Loading the Website the Display property of Aptitude Test Page will become 'none'
 document.getElementById("aptitudeContainer").style.display="none";
 
+// After Loading the Website the Display property of HR interview Page will become 'none'
+document.getElementById("HRmainContainer").style.display="none";
 
 
 // -----------------------------------------------------------
@@ -172,3 +174,45 @@ pBtn.addEventListener("click",function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+//Function to show & hide the HR Interview Page
+
+// Storing Elements in Variable
+
+// storing 3 Classes of different <a> tag but with same name in 3 different Variable
+let hrMenu=document.getElementsByClassName("HRmenu")[0];
+
+let hrMenu1=document.getElementsByClassName("HRmenu1")[0];
+
+let hrMenu2=document.getElementsByClassName("HRmenu2")[0];
+
+// storing HRmainConatianer in HRmainContainer Variable
+let HRmainContainer=document.getElementById("HRmainContainer");
+
+
+// function to show & hide the HR Interview Page
+hrMenu.addEventListener("click",HRShowHide);
+hrMenu1.addEventListener("click",HRShowHide);
+hrMenu2.addEventListener("click",HRShowHide);
+
+function HRShowHide(){
+    if (HRmainContainer.style.display!=="none") {
+        HRmainContainer.style.display="none";
+        document.getElementById("2").style.display="grid";
+    } else {
+        HRmainContainer.style.display="block";
+        regform.style.display="none";
+        document.querySelector("div.grid_container-2").style.display="none";
+        document.getElementById("2").style.display="none";
+        AptitudeContainer.style.display="none";
+    }
+}
