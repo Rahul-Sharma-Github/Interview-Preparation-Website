@@ -18,6 +18,9 @@ document.getElementById("HRmainContainer").style.display="none";
 
 
 
+
+
+
 //On Every Resize Event the  Welcome() Funtion will be Call
 window.addEventListener("resize", Welcome);
 
@@ -58,6 +61,9 @@ function Welcome()
 
 
 
+
+
+
 //Function to show & hide the Explore Menu
 
 // Storing the Element in Variable 'explore'
@@ -77,8 +83,11 @@ function showHide()
         AptitudeContainer.style.display="none";
         regform.style.display="none";
         document.getElementById("2").style.display="none";
+        HRmainContainer.style.display="none";
     }
 }
+
+
 
 
 
@@ -108,6 +117,7 @@ function RegForm()
         document.querySelector("div.grid_container-2").style.display="none";
         AptitudeContainer.style.display="none";
         document.getElementById("2").style.display="none";
+        HRmainContainer.style.display="none";
     }
     
 }
@@ -149,10 +159,9 @@ function aptitudeShowHide(){
         regform.style.display="none";
         document.querySelector("div.grid_container-2").style.display="none";
         document.getElementById("2").style.display="none";
+        HRmainContainer.style.display="none";
     }
 }
-
-
 
 
 // function to scroll horizontally left & Right on button Click
