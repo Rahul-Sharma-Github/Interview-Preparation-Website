@@ -12,6 +12,14 @@ document.getElementById("aptitudeContainer").style.display="none";
 // After Loading the Website the Display property of HR interview Page will become 'none'
 document.getElementById("HRmainContainer").style.display="none";
 
+// After Loading the Website the Display property of C Technical Test Page will become 'none'
+document.getElementById("CmainContainer").style.display="none";
+
+// After Loading the Website the Display property of Java Technical Test Page will become 'none'
+document.getElementById("JmainContainer").style.display="none";
+
+// After Loading the Website the Display property of Python Technical Test Page will become 'none'
+document.getElementById("PmainContainer").style.display="none";
 
 // -----------------------------------------------------------
 
@@ -84,6 +92,9 @@ function showHide()
         regform.style.display="none";
         document.getElementById("2").style.display="none";
         HRmainContainer.style.display="none";
+        CmainContainer.style.display="none";
+        JmainContainer.style.display="none";
+        PmainContainer.style.display="none";
     }
 }
 
@@ -118,6 +129,9 @@ function RegForm()
         AptitudeContainer.style.display="none";
         document.getElementById("2").style.display="none";
         HRmainContainer.style.display="none";
+        CmainContainer.style.display="none";
+        JmainContainer.style.display="none";
+        PmainContainer.style.display="none";
     }
     
 }
@@ -160,6 +174,9 @@ function aptitudeShowHide(){
         document.querySelector("div.grid_container-2").style.display="none";
         document.getElementById("2").style.display="none";
         HRmainContainer.style.display="none";
+        CmainContainer.style.display="none";
+        JmainContainer.style.display="none";
+        PmainContainer.style.display="none";
     }
 }
 
@@ -223,5 +240,137 @@ function HRShowHide(){
         document.querySelector("div.grid_container-2").style.display="none";
         document.getElementById("2").style.display="none";
         AptitudeContainer.style.display="none";
+        CmainContainer.style.display="none";
+        JmainContainer.style.display="none";
+        PmainContainer.style.display="none";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Function to show & hide the C Technical Test Page
+
+// Storing Elements in Variable
+
+// Storing menu in Cmenu variable
+let Cmenu=document.getElementsByClassName("Cmenu")[0];
+
+// storing CmainConatianer in CmainContainer Variable
+let CmainContainer=document.getElementById("CmainContainer");
+
+
+// function to show & hide the C Technical Test Page
+Cmenu.addEventListener("click",CShowHide);
+
+function CShowHide(){
+    if (CmainContainer.style.display!=="none") {
+        CmainContainer.style.display="none";
+        document.getElementById("2").style.display="grid";
+    } else {
+        CmainContainer.style.display="block";
+        regform.style.display="none";
+        document.querySelector("div.grid_container-2").style.display="none";
+        document.getElementById("2").style.display="none";
+        AptitudeContainer.style.display="none";
+        HRmainContainer.style.display="none";
+        JmainContainer.style.display="none";
+        PmainContainer.style.display="none";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Function to show & hide the Java Technical Test Page
+
+// Storing Elements in Variable
+
+// Storing menu in Jmenu variable
+let Jmenu=document.getElementsByClassName("Jmenu")[0];
+
+// storing JmainConatianer in JmainContainer Variable
+let JmainContainer=document.getElementById("JmainContainer");
+
+
+// function to show & hide the Java Technical Test Page
+Jmenu.addEventListener("click",JShowHide);
+
+function JShowHide(){
+    if (JmainContainer.style.display!=="none") {
+        JmainContainer.style.display="none";
+        document.getElementById("2").style.display="grid";
+    } else {
+        JmainContainer.style.display="block";
+        regform.style.display="none";
+        document.querySelector("div.grid_container-2").style.display="none";
+        document.getElementById("2").style.display="none";
+        AptitudeContainer.style.display="none";
+        HRmainContainer.style.display="none";
+        CmainContainer.style.display="none";
+        PmainContainer.style.display="none";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Function to show & hide the Python Technical Test Page
+
+// Storing Elements in Variable
+
+// Storing menu in Pmenu variable
+let Pmenu=document.getElementsByClassName("Pmenu")[0];
+
+// storing PmainConatianer in PmainContainer Variable
+let PmainContainer=document.getElementById("PmainContainer");
+
+
+// function to show & hide the Python Technical Test Page
+Pmenu.addEventListener("click",PShowHide);
+
+function PShowHide(){
+    if (PmainContainer.style.display!=="none") {
+        PmainContainer.style.display="none";
+        document.getElementById("2").style.display="grid";
+    } else {
+        PmainContainer.style.display="block";
+        regform.style.display="none";
+        document.querySelector("div.grid_container-2").style.display="none";
+        document.getElementById("2").style.display="none";
+        AptitudeContainer.style.display="none";
+        HRmainContainer.style.display="none";
+        CmainContainer.style.display="none";
+        JmainContainer.style.display="none";
     }
 }
