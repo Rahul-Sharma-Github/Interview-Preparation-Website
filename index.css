@@ -83,6 +83,10 @@ li a {
   font-family: sans-serif;
 }
 
+i.logo{
+  font-size: 20px;
+}
+
 /* applying hover effect on navbar menu */
 li a:hover{
   color: #f36b7f;
@@ -881,6 +885,10 @@ li a {
   font-weight: 600;
   text-transform: uppercase;
   font-family: sans-serif;
+}
+
+i.logo{
+  font-size: 20px;
 }
 
 /* applying hover effect on navbar menu */
@@ -1687,7 +1695,9 @@ li a {
   font-family: sans-serif;
 }
 
-
+i.logo{
+  font-size: 20px;
+}
 
 /* applying hover effect on navbar menu */
 li a:hover{
