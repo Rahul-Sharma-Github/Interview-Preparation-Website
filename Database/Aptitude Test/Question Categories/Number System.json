@@ -1,0 +1,71 @@
+[
+
+{
+    "question":"The binary equivalent of the decimal number 125 is -",
+    "option":["(A) 1100100","(B) 1111101","(C) 1101100","(D) 1111111"],
+    "answer":"(B)",
+    "solution":"http://p3.placement.freshersworld.com/power-preparation/sites/default/files/NS5.jpg"
+},
+{
+    "question":"The hexa decimal equivalent of the decimal number 128 is -",
+    "option":["(A) 128","(B) 175","(C) 80","(D) 81"],
+    "answer":"(C)",
+    "solution":"http://p3.placement.freshersworld.com/power-preparation/sites/default/files/NS6.jpg"
+},
+{
+    "question":"The decimal number 1356 expressed in octal system equals-",
+    "option":["(A) 2514","(B) 125","(C) 353","(D) 235"],
+    "answer":"(A)",
+    "solution":"http://p3.placement.freshersworld.com/power-preparation/sites/default/files/NS7.jpg"
+},
+{
+    "question":"The decimal conversion of the binary number (1111)2 is -",
+    "option":["(A) 31","(B) 15","(C) 13","(D) 14"],
+    "answer":"(B)",
+    "solution":"(1111)2 = 1*23 + 1*22 + 1*21 + 1*20 = 8+4+2+1 = 15"
+},
+{
+    "question":"The sum of (101101)2 and (111011)2 is -",
+    "option":["(A) 1010110","(B) 1101000","(C) 1000110","(D) 1110010"],
+    "answer":"(B)",
+    "solution":"http://p3.placement.freshersworld.com/power-preparation/sites/default/files/NS8.jpg"
+},
+{
+    "question":"The square root of (2011)5 is -",
+    "option":["(A) (21)<sub>5</sub>","(B) (31)<sub>5</sub>","(C) (121)<sub>5</sub>","(D) (41)<sub>5</sub>"],
+    "answer":"(B)",
+    "solution":"(2011)<sub>5</sub>= 2*5<sup>3</sup> + 0*5<sup>2</sup> + 1*5<sup>1</sup> + 1*5<sup>0</sup> = 250+5+1= (256)<sub>10</sub><br>The square root of (256)<sub>10</sub> = (16)<sub>10</sub> = (31)<sub>5</sub><br><img src='http://p3.placement.freshersworld.com/power-preparation/sites/default/files/NS9.jpg'>"
+},
+{
+    "question":"The sum of (6E)16 and (3B)12 is -",
+    "option":["(A) (157)<sub>10</sub>","(B) (137)<sub>11</sub>","(C) (166)<sub>8</sub>","(D) (192)<sub>7</sub>"],
+    "answer":"(A)",
+    "solution":"(6E)<sub>16</sub> = 6*16<sup>1</sup> +14*16<sup>0</sup> = 96 + 14 = (110)<sub>10</sub><br>(3B)<sub>12</sub> = 3*12<sup>1</sup> + 11*12<sup>0</sup> = 36 + 11=(47)<sub>10</sub><br>(110)<sub>10</sub> + (47)<sub>10</sub> = (157)<sub>10</sub>"
+},
+{
+    "question":"What is the difference in the place value of 5 in the numeral 754853?",
+    "option":["(A) 49500","(B) 49950","(C) 45000","(D) 49940"],
+    "answer":"(B)",
+    "solution":"The digit 5 has two place values in the numeral, 5 * 10<sup>5</sup> = 50,000 and 5 * 10<sup>1</sup> = 50.<br>∴Required difference = 50000 - 50 = 49950"
+},
+{
+    "question":"What should be added to 1459 so that it is exactly divisible by 12?",
+    "option":["(A) 4","(B) 3","(C) 5","(D) 6"],
+    "answer":"(C)",
+    "solution":"On dividing 1459 by 12, the remainder is 7.<br>∴The number to be added would be = 12 - 7 = 5"
+},
+{
+    "question":"If the number 467X4 is divisible by 9, find the value of the digit marked as X.",
+    "option":["(A) 4","(B) 5","(C) 6","(D) 7"],
+    "answer":"(C)",
+    "solution":"The number is divisible by 9 so the sum of its digits would be divisible by 9.<br>∴4 + 6 + 7 + X + 4 = 21+ X, must be divisible by 9.<br>X = 6, fulfills our requirement so the required digit is 6."
+},
+{
+    "question":"7X2 is a three digit number and X is the missing digit. If the number is divisible by 6, the missing digit is?",
+    "option":["(A) 4","(B) 3","(C) 2","(D) 5"],
+    "answer":"(B)",
+    "solution":"The given number is divisible by 6 so it would be divisible by 2 and 3. As the last digit is 2 whatever be the value of X, it would be divisible by 2.<br>Now, 7+X+2 = 9 + X, must be divisible by 3.<br>∴X = 3 makes the number divisible by 3, so 3 is the required digit."
+}
+
+
+]
