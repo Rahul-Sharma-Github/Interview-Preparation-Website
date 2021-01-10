@@ -1,0 +1,46 @@
+[
+
+    {
+        "question":"If a number is chosen at random from the set {1, 2, 3…, 100}, then the probability that the chosen number is a perfect cube is",
+        "option":["(A) 1/25 ","(B) 1/2","(C) 4/13","(D) 1/10"],
+        "answer":"(A)",
+        "solution":"We have 1, 8, 27 and 64 as perfect cubes from 1 to 100. Thus, the probability of picking a perfect cube is 4/100 = 1/25"
+    },
+    {
+        "question":"What is the probability of getting at least one six in a single throw of three unbiased dice?",
+        "option":["(A) 1/6","(B) 125/216","(C) 1/36 ","(D) 81/216","(E) 91/216"],
+        "answer":"(E)",
+        "solution":"Find the number of cases in which none of the digits show a '6'.<br>i.e. all three dice show a number other than '6', 5 * 5 *5 = 125 cases.Total possible outcomes when three dice are thrown = 216.<br>The number of outcomes in which at least one die shows a '6' = Total possible outcomes when three dice are thrown - Number of outcomes in which none of them show '6'.<br> = 216 - 125 = 91.<br>The required probability = 91/216."
+    },
+    {
+        "question":"In a simultaneous throw of two dice, what is the probability of getting a doublet?",
+        "option":["(A) 1/6","(B) 1/4","(C) 2/3","(D) 3/7"],
+        "answer":"(A)",
+        "solution":"In a simultaneous throw of two dice, n(S) = (6 x 6)= 36.<br>Let  E = event of getting a doublet = {(1,1),(2,2),(3,3),(4,4),(5,5),(6,6)}.<br>Therefore, P(E) = n (E)/ n(S) = 6/36 = 1/6."
+    },
+    {
+        "question":"A bag contains 4 red balls, 5 green balls and 6 white balls. A ball is drawn at random from the box. What is the probability that the ball drawn is either red or green?",
+        "option":["(A) 2/5","(B) 3/5","(C) 1/5 ","(D) 7/15"],
+        "answer":"(B)",
+        "solution":"Total number of balls = (4 + 5 + 6) = 15.<br>Therefore, n(S) = 15.<br>Let       E1 = event of drawing a red ball.<br>and      E2  = event of drawing a green ball.<br>Then,   E1 n E2 = f.<br>P (E1 n E2) = P(E1) + P(E2) = (4/15 + 5/15) = 9/15 = 3/5."
+    },
+    {
+        "question":"When 4 dice are thrown, what is the probability that the same number appears on each of them?",
+        "option":["(A) 1/36","(B) 1/18","(C) 1/216","(D) 1/5 "],
+        "answer":"(C)",
+        "solution":"Exp: Sample space (Denominator): When 4 dice are thrown simultaneously, then the total number of possible outcomes is 64 = 1296.<br>Event (Numerator): The chances that all the dice show same number (1,1,1,1),(2,2,2,2),(3,3,3,3),(4,4,4,4),(5,5,5,5),(6,6,6,6)} is 6.<br>Probability = Event/ Sample space = 6/64 = 1/63 = 1/216."
+    },
+    {
+        "question":"The probability that it is Friday and that a student is absent is 0.03. Since there are 5 school days in a week, the probability that it is Friday is 0.2. What is the probability that a student is absent given that today is Friday?",
+        "option":["(A) 10%","(B) 15%","(C) 12%","(D) 13%"],
+        "answer":"(B)",
+        "solution":"P(Absent|Friday) = P(Friday and abscent) = 0.03/0.2 = 15%<br>P(Friday)"
+    },
+    {
+        "question":"Two dice are rolled. The probability of getting a sum of at least 9 is -",
+        "option":["(A) 13/36","(B) 5/18","(C) 35/36","(D) 11/36"],
+        "answer":"(B)",
+        "solution":"Sum of 9 = {(3,6) (6,3)}= 2ways.<br>Sum of 10 = {(5,5) (6,4) (4,6) (5,5)}= 4 ways.<br>Sum of 11 = {(6,5) (5,6)}= 2 ways.<br>Sum of 12 = {(6,6) (6,6)}= 2 ways.<br>Therefore, Favourable cases = 10<br>Total cases = 6 x 6 = 36.<br>Therefore, Probability = 10/36 = 5/18."
+    }
+
+]

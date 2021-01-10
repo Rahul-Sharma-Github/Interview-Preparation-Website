@@ -1,0 +1,46 @@
+[
+
+{
+    "question":"If A : B  = 4 : 7 and B : C = 5 : 9 then A : B : C is :",
+    "option":["(A) 20 : 35 : 63","(B) 35 : 36 : 63","(C) 30 : 35 : 65","(D) 25 :34: 68"],
+    "answer":"(A)",
+    "solution":"A : B = 4 : 7<br>B : C = 5 :9  = 5*7/5 : 9 *7/5 = 7 : 63/5<br>A : B : C =  4 :  7 : 63/5 =  20 : 35 : 63"
+},
+{
+    "question":"If  m : n  = 3 : 4 and n : o  = 8 : 9, then m : o is :",
+    "option":["(A) 1 :3","(B) 3 :2","(C) 2 : 3","(D) 1 : 2"],
+    "answer":"(C)",
+    "solution":"m/n =  m/n * n/o =3/4 * 8/9 = 2/3. So m : o = 2 : 3"
+},
+{
+    "question":"If 15% of A is the same as 20% of B, then A : B  is :",
+    "option":["(A) 3 : 4","(B) 4 : 3","(C) 17 : 16","(D) 16 : 17"],
+    "answer":"(A)",
+    "solution":"15% of A I= 20 % of B =15A/100 = 20B/100 = 4/3 = 4:3"
+},
+{
+    "question":"Which of the following  ratios is greatest ?",
+    "option":["(A) 7 :15","(B) 15 :23","(C) 17 :25","(D) 21 :29"],
+    "answer":"(D)",
+    "solution":"7/15 = 0.466,            15/23 = 0.652,             17/25 = 0.68    21/29 = 0.724<br>Clearly, 0.724 is greatest and therefore, 21 : 29 is greatest"
+},
+{
+    "question":"The ratio of number of boys and girls in a class is 3 : 2.  In the 1st semester exam 20% of boys and 25% of girls get more than or equal to 90%  marks. What percentage of students get less than 90% marks ?",
+    "option":["(A) 56","(B) 70","(C) 78","(D) 80"],
+    "answer":"(C)",
+    "solution":"Let boys =3x and girls =2x.<br>Number of those who get less than 90% mark  =(80% of 3x) + (75% of 2x)<br>=(80/100 )*3x +(75/100 *2x)  =39x/10<br>Required percentage = (39x/10 *1/5x *100)% = 78%."
+},
+{
+    "question":"A mixture of 85 kg contains milk and water in the ratio 27 : 7. How much more water is to be added to<br>get a new mixture containing milk and water in the ratio 3:1?",
+    "option":["(A) 5 kg","(B) 6.5 kg","(C) 7.5 kg","(D) 8 kg"],
+    "answer":"(A)",
+    "solution":"Milk in 85 kg of mix = 85* (27/34) = 135/2 kg<br>Water in it = 85-135/2 = 35/2 kg.<br>Let x kg of water be added to it.<br>Then, (135/2)/(35/2 + x) = 3/1;  135/(35 +2x) = 3/1;<br>105 + 6x = 135 ; 6x = 30; x = 5<br>The quantity of water to be added = 5 kg"
+},
+{
+    "question":"The ages of Raju and Biju  are in the ratio 3:1. Fifteen years hence, the ratio will be 2:1. Their present ages are:",
+    "option":["(A) 30yrs, 10yrs","(B) 45 yrs, 15yrs","(C) 21 yrs, 7 yrs","(D) 60yrs, 20yrs"],
+    "answer":"(B)",
+    "solution":"Let the ages of raju and Biju is 3x and x years respectively.<br>Then, (3x +15)/ (x+15) = 2/1;   ->   2x + 30 = 3x + 15 -> x = 15<br>So Raju’s age = 3*15 = 45 and Biju’s age  = 15 years"
+}
+
+]

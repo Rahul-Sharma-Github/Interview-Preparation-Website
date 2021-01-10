@@ -1,0 +1,46 @@
+[
+
+    {
+        "question":"A boy runs 200 metres  in 24 seconds. What is his speed ?",
+        "option":["(A) 20 km/hr","(B) 24 km/hr","(C) 28.5 km/hr","(D) 30 km/hr"],
+        "answer":"(D)",
+        "solution":"200/24 * 18/5 =  30 km/hr"
+    },
+    {
+        "question":"If the speed of a man is 45 km per hour, then what is the distance traveled by him in 30 seconds ?",
+        "option":["(A) 275m","(B) 360m","(C) 375 m","(D) 420 m"],
+        "answer":"(C)",
+        "solution":"The distance traveled in 30 sec = 45*(5/18) *30 =375m"
+    },
+    {
+        "question":"An escalator moves towards the top level at the rate of 11 ft.sec and its length is 140 feet. If a person<br>walks on the moving escalator at the rate of 3 feet per second towards the top level, how much time<br.does he take to cover the entire length.",
+        "option":["(A) 14 sec","(B) 10 sec","(C) 12 sec","(D) 8 sec"],
+        "answer":"(B)",
+        "solution":"Time taken to cover the entire length = tot.dist/resultant speed = 140/ (11+3) = 10sec"
+    },
+    {
+        "question":"Two trains, 250 metres and 150 metres long respectively, are running on parallel lines. If they are<br>running in the same directions, the faster train crosses the slower train in 40 seconds. If they are<br>moving in the opposite direction they pass each other in eight seconds. What is the speed of the slower train?",
+        "option":["(A) 108kmph","(B) 82kmph","(C) 92 kmph","(D) 72 kmph"],
+        "answer":"(D)",
+        "solution":"Let the speed of faster train be f and slower train be y.<br>Time taken to cross each other traveling in the same direction = 250<br>+150/ (x-y) = 40………(1)<br>Time taken to cross each other traveling in the opposite direction = 250+150 /(x+y) = 8 …….(2)<br>From (1) and (2) f= 30 m/s and s = 20 m/s<br>Speed of slower train = 20 * 18/5 = 72 kmph"
+    },
+    {
+        "question":"Two persons , Ram & Lakshman , who are at a distance of 100 km from each other, move towards each<br>other from two places P and Q at speeds of 20 kmph and 25 kmph respectively. Lakshman reaches P,returns immediately and meets Ram at R, who started on the return journey to P immediately after reaching Q. What is the distance between Q and R?",
+        "option":["(A) 33 1/3 km","(B) 25 km","(C) 30km","(D) 27 1/3  km"],
+        "answer":"(A)",
+        "solution":"Ram takes 100/20 = 5 hours  to cover the distance from P to Q. By that time Lakshman covers 5 *25 = 125 km<br>Lakshman covers 25 km more than the distance PQ . Now the distance between them = 75 km<br>Time taken by them to meet = Distance/ Relative speed = 75/(20+25) = 75/45 = 5/3 hrs.<br>Distance between Q and R is nothing but the distance covered by Ram in 5/3 hours = 20 *5/3 = 100/3 km or 33 1/3 km"
+    },
+    {
+        "question":"With out any halt a train  travels a certain distance with an average speed of 75 km ph , and with halts<br>it covers the same distance at an average speed of 60 kmph. When it is traveling with halts, how many minutes/per hour does the train halt on an average ?",
+        "option":["(A) 48 min","(B) 12min","(C) 15min","(D) 18min"],
+        "answer":"(B)",
+        "solution":"With halt in 1 hour the train travels 60km<br>With out halt for traveling same distance it take 60/75 = 4/5 = 48 minutes<br>:. 12 minutes is the halting time per hour"
+    },
+    {
+        "question":"A lady starts from P towards Q and realizes that at a point R, if he walks 50 km further he will be at a point S, which is as far away from R as it is from Q. What is the distance between P and Q if the distance between P and R is half the distance from R to Q?( Assume that P, Q, R and S are all on the same straight line)",
+        "option":["(A) 150 km","(B) 200 km","(C) 250 km","(D) 125 km"],
+        "answer":"(A)",
+        "solution":"P___50_____ R ___50_____S____50 ___Q<br>The above figure gives the locations of P, R, S &Q in relation to each other."
+    }
+
+]
