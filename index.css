@@ -639,15 +639,54 @@ button.nextBtn{
 }
 
 #HRquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   height: auto;
   margin: 15px 0px 5px 0px;
-  padding: 0px 15px 15px 15px;
+  /* padding: 15px 15px 15px 15px; */
+}
+
+/* CSS properties for AJAX data  */
+div.list{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+span.qn{
+  background-color: crimson;
+  color: rgb(250, 249, 248);
+  border: 1px solid rgb(43, 41, 41);
+  padding: 5px 15px;
+}
+span.q{
+  display: block;
+  padding: 15px 0px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.example{
+  box-shadow: 0px 2px 0.2px rgb(158, 8, 8);
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+span.exam{
+  display: block;
+  color: crimson;
+  font-size: 18px;
+  padding-top: 10px;
+  /* border: 1px solid black; */
 }
 
 
@@ -1431,15 +1470,54 @@ button.nextBtn{
 }
 
 #HRquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   height: auto;
   margin: 15px 0px 5px 0px;
-  padding: 0px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+}
+
+/* CSS properties for AJAX data  */
+div.list{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+span.qn{
+  background-color: crimson;
+  color: rgb(250, 249, 248);
+  border: 1px solid rgb(43, 41, 41);
+  padding: 5px 15px;
+}
+span.q{
+  display: block;
+  padding: 15px 0px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.example{
+  box-shadow: 0px 2px 0.2px rgb(158, 8, 8);
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+span.exam{
+  display: block;
+  color: crimson;
+  font-size: 18px;
+  padding-top: 10px;
+  /* border: 1px solid black; */
 }
 
 
@@ -2244,16 +2322,58 @@ button.nextBtn{
 }
 
 #HRquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   height: auto;
   margin: 15px 0px 5px 0px;
-  padding: 0px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+
+  /* background-color: rgb(245, 218, 180); */
 }
+
+/* CSS properties for AJAX data  */
+div.list{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+span.qn{
+  background-color: crimson;
+  color: rgb(250, 249, 248);
+  border: 1px solid rgb(43, 41, 41);
+  padding: 5px 15px;
+}
+span.q{
+  display: block;
+  padding: 15px 0px;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.example{
+  box-shadow: 0px 2px 0.2px rgb(158, 8, 8);
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+
+span.exam{
+  display: block;
+  color: crimson;
+  font-size: 18px;
+  padding-top: 10px;
+  /* border: 1px solid black; */
+}
+
 
 
 /* HR Interview PAGE End */

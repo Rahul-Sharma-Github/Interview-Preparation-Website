@@ -236,6 +236,43 @@ function HRShowHide(){
         document.getElementById("2").style.display="grid";
     } else {
         HRmainContainer.style.display="block";
+
+        // Using Ajax for Asynchronous call to server for getting required data
+
+        // Storing HRquestionAnswerContainer in qaContainer variable
+        let qaContainer=document.getElementById("HRquestionAnswerContainer");
+        qaContainer.innerHTML="";
+
+        // initialising the xmlhttp Object
+        var xmlhttp = new XMLHttpRequest();
+
+        // everytime when state will be change the function will automatically run
+        xmlhttp.onreadystatechange = function() {
+
+            if (this.readyState == 4 && this.status == 200) {
+              var myObj = JSON.parse(this.responseText);
+          
+              let htmlstring="";
+              for (let i = 0; i < myObj.length; i++) {
+                 htmlstring=`
+                 <div class="list">
+                 <p class="question"><span class="qn">${i+1}</span><span class="q">${myObj[i].question}</span></p>
+                 <p class="example">${myObj[i].example.join("<br><br>")}</p>
+                 </div>
+                 `;
+                
+                 qaContainer.insertAdjacentHTML('beforeend',htmlstring);
+              }
+              
+            }
+          };
+          xmlhttp.open("GET", "Database/HR Interview Questions/HR Interview.json", true);
+          xmlhttp.send();
+
+
+
+
+
         regform.style.display="none";
         document.querySelector("div.grid_container-2").style.display="none";
         document.getElementById("2").style.display="none";
@@ -374,3 +411,17 @@ function PShowHide(){
         JmainContainer.style.display="none";
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
