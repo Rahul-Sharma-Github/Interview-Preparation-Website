@@ -424,4 +424,45 @@ function PShowHide(){
 
 
 
+// function to Show the different AJAX data into Aptitude Test's qaContainer according to the Question Categories
 
+// // Storing MainQAContainer in variable
+
+let MainQAContainer=document.getElementById("MainQAContainer");
+
+// Function to show Ajax Data in MainQAContainer of Aptitude Test Page
+
+function aptAjaxDataShow(fileName) {
+    MainQAContainer.innerHTML="";
+    
+    let xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+
+    if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+
+    let htmlstring="";
+    for (let i = 0; i < myObj.length; i++) {
+       htmlstring=`
+       <div class="list">
+       <p class="question"><span class="qn">${i+1}</span><span class="q">${myObj[i].question}</span></p>
+       <p class="option">${myObj[i].option.join("<br>")}</p>
+       <p class="Answer">Answer = ${myObj[i].answer}</p>
+       <details>
+       <summary>Explanation</summary>
+       <p class="solu">${myObj[i].solution}</p>
+       </details>
+       
+       </div>
+       `;
+      
+       MainQAContainer.insertAdjacentHTML('beforeend',htmlstring);
+    }
+    
+  }
+  
+};
+    xmlhttp.open("GET", `Database/Aptitude Test/Question Categories/${fileName}.json`, true);
+    xmlhttp.send();
+    
+}
