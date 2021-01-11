@@ -34,7 +34,7 @@
     "question":"The square root of (2011)5 is -",
     "option":["(A) (21)<sub>5</sub>","(B) (31)<sub>5</sub>","(C) (121)<sub>5</sub>","(D) (41)<sub>5</sub>"],
     "answer":"(B)",
-    "solution":"(2011)<sub>5</sub>= 2*5<sup>3</sup> + 0*5<sup>2</sup> + 1*5<sup>1</sup> + 1*5<sup>0</sup> = 250+5+1= (256)<sub>10</sub><br>The square root of (256)<sub>10</sub> = (16)<sub>10</sub> = (31)<sub>5</sub><br><img src='http://p3.placement.freshersworld.com/power-preparation/sites/default/files/NS9.jpg'>"
+    "solution":"(2011)<sub>5</sub>= 2*5<sup>3</sup> + 0*5<sup>2</sup> + 1*5<sup>1</sup> + 1*5<sup>0</sup> = 250+5+1= (256)<sub>10</sub><br>The square root of (256)<sub>10</sub> = (16)<sub>10</sub> = (31)<sub>5</sub><br><br><img src='http://p3.placement.freshersworld.com/power-preparation/sites/default/files/NS9.jpg'>"
 },
 {
     "question":"The sum of (6E)16 and (3B)12 is -",

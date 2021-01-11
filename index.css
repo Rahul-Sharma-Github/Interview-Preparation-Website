@@ -584,7 +584,7 @@ button.nextBtn{
 /* Question & Answer Main Container Start */
 
 #MainQAContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -617,19 +617,37 @@ span.qn{
   border: 1px solid rgb(43, 41, 41);
   padding: 5px 15px;
 }
-span.q{
-  border: 1px solid black;
+
+ span.q{
+  /* border: 1px solid black; */
   display: block;
   padding: 15px 0px;
-  font-size: 32px;
   font-family: Arial, Helvetica, sans-serif;
+} 
+
+p.question span.q{
+  font-size: 30px;
 }
+
+
 p.option{
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
+
 p.Answer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  display: block;
+  color: crimson;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
 }
+
 details{
   outline: none;
   text-align: left;
@@ -637,6 +655,7 @@ details{
   display: block;
   border: 1px solid rgb(66, 119, 14);
   background-color: rgb(233, 232, 232);
+  
 }
 summary{
   outline: none;
@@ -644,9 +663,12 @@ summary{
   padding: 5px 0px 5px 0px;
   color: rgb(255, 255, 255);
   background-color: rgb(66, 119, 14);
+  
 }
 details p.solu{
   outline: none;
+  color: green;
+  padding: 10px;
 }
 
 
@@ -1468,7 +1490,7 @@ button.nextBtn{
 /* Question & Answer Main Container Start */
 
 #MainQAContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -1480,6 +1502,79 @@ button.nextBtn{
 }
 
 /* Question & Answer Main Container End */
+
+
+/* Aptitude AJAX Data CSS Properties */
+
+div.list{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+span.qn{
+  display: inline-block;
+  background-color: crimson;
+  color: rgb(250, 249, 248);
+  border: 1px solid rgb(43, 41, 41);
+  padding: 5px 15px;
+}
+
+ span.q{
+  /* border: 1px solid black; */
+  display: block;
+  padding: 15px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+p.question span.q{
+  font-size: 30px;
+}
+
+
+p.option{
+  /* border: 1px solid black; */
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+p.Answer{
+  /* border: 1px solid black; */
+  display: block;
+  color: crimson;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
+
+details{
+  outline: none;
+  text-align: left;
+  font-size: 20px;
+  display: block;
+  border: 1px solid rgb(66, 119, 14);
+  background-color: rgb(233, 232, 232);
+  
+}
+summary{
+  outline: none;
+  display: block;
+  padding: 5px 0px 5px 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(66, 119, 14);
+  
+}
+details p.solu{
+  outline: none;
+  color: green;
+  padding: 10px;
+}
+
 
 /* Aptitude Test PAGE End */
 
@@ -2319,7 +2414,7 @@ button.nextBtn{
 /* Question & Answer Main Container Start */
 
 #MainQAContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -2331,6 +2426,79 @@ button.nextBtn{
 }
 
 /* Question & Answer Main Container End */
+
+
+/* Aptitude AJAX Data CSS Properties */
+
+div.list{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+span.qn{
+  display: inline-block;
+  background-color: crimson;
+  color: rgb(250, 249, 248);
+  border: 1px solid rgb(43, 41, 41);
+  padding: 5px 15px;
+}
+
+ span.q{
+  /* border: 1px solid black; */
+  display: block;
+  padding: 15px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+p.question span.q{
+  font-size: 30px;
+}
+
+
+p.option{
+  /* border: 1px solid black; */
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+p.Answer{
+  /* border: 1px solid black; */
+  display: block;
+  color: crimson;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+}
+
+details{
+  outline: none;
+  text-align: left;
+  font-size: 20px;
+  display: block;
+  border: 1px solid rgb(66, 119, 14);
+  background-color: rgb(233, 232, 232);
+  
+}
+summary{
+  outline: none;
+  display: block;
+  padding: 5px 0px 5px 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(66, 119, 14);
+  
+}
+details p.solu{
+  outline: none;
+  color: green;
+  padding: 10px;
+}
+
 
 /* Aptitude Test PAGE End */
 

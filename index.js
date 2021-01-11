@@ -446,7 +446,7 @@ function aptAjaxDataShow(fileName) {
        htmlstring=`
        <div class="list">
        <p class="question"><span class="qn">${i+1}</span><span class="q">${myObj[i].question}</span></p>
-       <p class="option">${myObj[i].option.join("<br>")}</p>
+       <p class="option">${myObj[i].option.join("<br><br>")}</p>
        <p class="Answer">Answer = ${myObj[i].answer}</p>
        <details>
        <summary>Explanation</summary>
