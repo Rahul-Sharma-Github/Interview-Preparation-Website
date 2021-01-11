@@ -568,6 +568,11 @@ li.lists{
   flex-shrink: 0;
 }
 
+li.lists:hover{
+  background-color: #272c33;
+  color: #fae0e0;
+  cursor: pointer;
+}
 
 button.nextBtn{
   justify-content: flex-end;
@@ -1473,7 +1478,11 @@ li.lists{
   align-items: center;
   flex-shrink: 0;
 }
-
+li.lists:hover{
+  background-color: #272c33;
+  color: #fae0e0;
+  cursor: pointer;
+}
 
 button.nextBtn{
   justify-content: flex-end;
@@ -2397,7 +2406,11 @@ li.lists{
   align-items: center;
   flex-shrink: 0;
 }
-
+li.lists:hover{
+  background-color: #272c33;
+  color: #fae0e0;
+  cursor: pointer;
+}
 
 button.nextBtn{
   justify-content: flex-end;
