@@ -563,3 +563,53 @@ function Jajaxdatacall(Jfilename) {
               xmlhttp.open("GET", `Database/Java Technical Questions/${Jfilename}.json`, true);
               xmlhttp.send();
     }
+
+
+
+
+
+
+
+
+
+
+
+
+// Function for storing ajax data of Python Technical Test questions
+
+function Pajaxdatacall(Pfilename) {
+    
+
+    // Using Ajax for Asynchronous call to server for getting required data
+    
+            // Storing JquestionAnswerContainer in PqaContainer variable
+            let PqaContainer=document.getElementById("PquestionAnswerContainer");
+            PqaContainer.innerHTML="";
+    
+            // initialising the xmlhttp Object
+            var xmlhttp = new XMLHttpRequest();
+    
+            // everytime when state will be change the function will automatically run
+            xmlhttp.onreadystatechange = function() {
+    
+                if (this.readyState == 4 && this.status == 200) {
+                  var myObj = JSON.parse(this.responseText);
+              
+                  let htmlstring="";
+                  for (let i = 0; i < myObj.length; i++) {
+                     htmlstring=`
+                     <div class="list">
+                     <p class="question"><span class="qn">${i+1}</span><span class="q">${myObj[i].question}</span></p>
+                     <div class="ansTitle">ANSWER ::</div>
+                     <p class="example">${myObj[i].answer.join("<br><br>")}</p>
+                     </div>
+                     `;
+                    
+                     PqaContainer.insertAdjacentHTML('beforeend',htmlstring);
+                  }
+                  
+                }
+              };
+              xmlhttp.open("GET", `Database/Python Technical Questions/${Pfilename}.json`, true);
+              xmlhttp.send();
+    }

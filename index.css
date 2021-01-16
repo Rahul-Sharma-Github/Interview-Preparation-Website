@@ -871,7 +871,7 @@ div.ansTitle{
 }
 
 #JquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -922,7 +922,7 @@ div.ansTitle{
 }
 
 #PquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -1790,7 +1790,7 @@ div.ansTitle{
 }
 
 #JquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -1841,7 +1841,7 @@ div.ansTitle{
 }
 
 #PquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -2726,7 +2726,7 @@ div.ansTitle{
 }
 
 #JquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -2779,7 +2779,7 @@ div.ansTitle{
 }
 
 #PquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
