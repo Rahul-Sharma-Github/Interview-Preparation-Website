@@ -1,0 +1,45 @@
+[
+    {
+        "question": "How can we construct an increment statement or decrement statement in C?",
+        "answer": [
+            "We can do this in two different ways. 1) By using the increment operator ++ and decrement operator. For example, the statement “i++” means to increment the value of x by 1. Likewise, the statement “x –” means to decrement the value of x by 1. 2) The 2nd  way of writing increment statements is to use the conventional + plus sign or minus sign. In the case of “i++, another way to write it is “i = i +1."
+        ]
+    },
+    {
+        "question": "List the different storage class specifiers in C?",
+        "answer": [
+            "static, auto, extern, register"
+        ]
+    },
+    {
+        "question": "Some Programmers debug their programs by placing comment symbols on some of the codes instead of deleting it. How does this aid in debugging?",
+        "answer": [
+            "Using comment symbols “/* */ ” in  a code, also called as commenting out, is a way of segregate some codes that you think maybe causing errors in the code, without deleting the program. The aim is that if the code is in fact correct, we can simply remove the comment symbols and continue on. It also saves you time and effort on having to retype the codes if you have deleted it in the first place."
+        ]
+    },
+    {
+        "question": "What is call by value and call by reference in C Programming language?",
+        "answer": [
+            "We can pass value to function by two different ways: call by value and call by reference. In case of call by value, a copy of value is passed to the function, so original value is not modified in the call by value. But in case of call by reference, an address of value is passed to the function, so original value is modified in the call by reference."
+        ]
+    },
+    {
+        "question": "How can we replace the following statement by using WHILE Loop?<br><br>for (x=1; x<=100; x++)<br>printf (\"%d \", x *x );",
+        "answer": [
+            "x=1;<br>while (x<=100)<br>{<br>printf (\"%d \", x * x);<br>x++;<br>}"
+        ]
+    },
+    {
+        "question": "Name the different functions are used for dynamic memory allocation in C Program?",
+        "answer": [
+            "malloc(),calloc(),realloc(),free()"
+        ]
+    },
+    {
+        "question": "Explain about spaghetti programming?",
+        "answer": [
+            "Spaghetti programming refers to programs that tend to get tangled and overlapped throughout the codes. This unorganized approach to coding is usually attributed to lack of experience on the part of the programmer. Spaghetti coding makes a program complex and analysing the codes difficult, and so must be avoided as much as possible."
+        ]
+    }
+
+]

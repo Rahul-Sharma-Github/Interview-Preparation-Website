@@ -1,0 +1,45 @@
+[
+    {
+        "question": "What is JVM?",
+        "answer": [
+            "The Java interpreter along with the runtime environment required to run the Java application in called as Java virtual machine(JVM)"
+        ]
+    },
+    {
+        "question": "What is the most important feature of Java?",
+        "answer": [
+            "Java is a platform independent language."
+        ]
+    },
+    {
+        "question": "What do you mean by platform independence?",
+        "answer": [
+            "Platform independence means that we can write and compile the java code in one platform (eg Windows) and can execute the class in any other supported platform eg (Linux,Solaris,etc)."
+        ]
+    },
+    {
+        "question": "",
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "answer": [
+            ""
+        ]
+    },
+    {
+        "question": "",
+        "answer": [
+            ""
+        ]
+    }
+
+]
