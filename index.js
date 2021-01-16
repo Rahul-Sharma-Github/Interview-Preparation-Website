@@ -514,3 +514,52 @@ function Cajaxdatacall(Cfilename) {
           xmlhttp.open("GET", `Database/C Technical Questions/${Cfilename}.json`, true);
           xmlhttp.send();
 }
+
+
+
+
+
+
+
+
+
+
+
+// Function for storing ajax data of Java Technical Test questions
+
+function Jajaxdatacall(Jfilename) {
+    
+
+    // Using Ajax for Asynchronous call to server for getting required data
+    
+            // Storing JquestionAnswerContainer in JqaContainer variable
+            let JqaContainer=document.getElementById("JquestionAnswerContainer");
+            JqaContainer.innerHTML="";
+    
+            // initialising the xmlhttp Object
+            var xmlhttp = new XMLHttpRequest();
+    
+            // everytime when state will be change the function will automatically run
+            xmlhttp.onreadystatechange = function() {
+    
+                if (this.readyState == 4 && this.status == 200) {
+                  var myObj = JSON.parse(this.responseText);
+              
+                  let htmlstring="";
+                  for (let i = 0; i < myObj.length; i++) {
+                     htmlstring=`
+                     <div class="list">
+                     <p class="question"><span class="qn">${i+1}</span><span class="q">${myObj[i].question}</span></p>
+                     <div class="ansTitle">ANSWER ::</div>
+                     <p class="example">${myObj[i].answer.join("<br><br>")}</p>
+                     </div>
+                     `;
+                    
+                     JqaContainer.insertAdjacentHTML('beforeend',htmlstring);
+                  }
+                  
+                }
+              };
+              xmlhttp.open("GET", `Database/Java Technical Questions/${Jfilename}.json`, true);
+              xmlhttp.send();
+    }

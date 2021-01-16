@@ -631,7 +631,7 @@ span.qn{
 } 
 
 p.question span.q{
-  font-size: 30px;
+  font-size: 28px;
 }
 
 
@@ -810,7 +810,7 @@ span.exam{
 }
 
 #CquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -1727,7 +1727,7 @@ span.exam{
 }
 
 #CquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -1738,6 +1738,13 @@ span.exam{
   padding: 0px 15px 15px 15px;
 }
 
+/* ajax data styles */
+div.ansTitle{
+  color: crimson;font-family: sans-serif;
+  font-weight: 600;
+  padding: 0px 0px 10px 0px;
+  font-size: 18px;
+}
 
 /* C Technical Test PAGE End */
 
@@ -2658,7 +2665,7 @@ span.exam{
 }
 
 #CquestionAnswerContainer{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow-y: auto;
   overflow-x: hidden;
 
@@ -2669,6 +2676,13 @@ span.exam{
   padding: 0px 15px 15px 15px;
 }
 
+/* ajax data styles */
+div.ansTitle{
+  color: crimson;font-family: sans-serif;
+  font-weight: 600;
+  padding: 0px 0px 10px 0px;
+  font-size: 18px;
+}
 
 /* C Technical Test PAGE End */
 
