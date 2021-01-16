@@ -18,27 +18,27 @@
         ]
     },
     {
-        "question": "",
+        "question": "What is the difference between a JDK and a JVM?",
         "answer": [
-            ""
+            "JDK is Java Development Kit which is for development purpose and it includes execution environment also. But JVM is purely a run time environment and hence you will not be able to compile your source files using a JVM."
         ]
     },
     {
-        "question": "",
+        "question": "What is the base class of all classes?",
         "answer": [
-            ""
+            "java.lang.Object"
         ]
     },
     {
-        "question": "",
+        "question": "What are the access modifiers in Java?",
         "answer": [
-            ""
+            "There are 3 access modifiers. Public, protected and private, and the default one if no identifier is specified is called friendly, but programmer cannot specify the friendly identifier explicitly."
         ]
     },
     {
-        "question": "",
+        "question": "What is are packages?",
         "answer": [
-            ""
+            "A package is a collection of related classes and interfaces providing access protection and namespace management."
         ]
     }
 
