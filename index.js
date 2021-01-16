@@ -466,3 +466,51 @@ function aptAjaxDataShow(fileName) {
     xmlhttp.send();
     
 }
+
+
+
+
+
+
+
+
+
+
+// Function for storing ajax data of C Technical Test questions
+
+function Cajaxdatacall(Cfilename) {
+    
+
+// Using Ajax for Asynchronous call to server for getting required data
+
+        // Storing CquestionAnswerContainer in CqaContainer variable
+        let CqaContainer=document.getElementById("CquestionAnswerContainer");
+        CqaContainer.innerHTML="";
+
+        // initialising the xmlhttp Object
+        var xmlhttp = new XMLHttpRequest();
+
+        // everytime when state will be change the function will automatically run
+        xmlhttp.onreadystatechange = function() {
+
+            if (this.readyState == 4 && this.status == 200) {
+              var myObj = JSON.parse(this.responseText);
+          
+              let htmlstring="";
+              for (let i = 0; i < myObj.length; i++) {
+                 htmlstring=`
+                 <div class="list">
+                 <p class="question"><span class="qn">${i+1}</span><span class="q">${myObj[i].question}</span></p>
+                 <div class="ansTitle">ANSWER ::</div>
+                 <p class="example">${myObj[i].answer.join("<br><br>")}</p>
+                 </div>
+                 `;
+                
+                 CqaContainer.insertAdjacentHTML('beforeend',htmlstring);
+              }
+              
+            }
+          };
+          xmlhttp.open("GET", `Database/C Technical Questions/${Cfilename}.json`, true);
+          xmlhttp.send();
+}
