@@ -1,44 +1,44 @@
 [
     {
-        "question": "",
+        "question": "What is Python?",
         "answer": [
-            ""
+            "Python is a high-level, interpreted, general-purpose programming language. Being a general-purpose language, it can be used to build almost any type of application with the right tools/libraries. Additionally, python supports objects, modules, threads, exception-handling and automatic memory management which help in modelling real-world problems and building applications to solve these problems."
         ]
     },
     {
-        "question": "",
+        "question": "What are the benefits of using Python?",
         "answer": [
-            ""
+            "Python is a general-purpose programming language that has simple, easy-to-learn syntax which emphasizes readability and therefore reduces the cost of program maintenance. Moreover, the language is capable of scripting, completely open-source and supports third-party packages encouraging modularity and code-reuse. Its high-level data structures, combined with dynamic typing and dynamic binding, attract a huge community of developers for Rapid Application Development and deployment."
         ]
     },
     {
-        "question": "",
+        "question": "What is a dynamically typed language?",
         "answer": [
-            ""
+            "Before we understand what a dynamically typed language, we should learn about what typing is. Typing refers to type-checking in programming languages. In a strongly-typed  language, such as Python, \"1\" + 2 will result in a type error, since these languages don't allow for \"type-coercion\" (implicit conversion of data types). On the other hand, a weakly-typed  language, such as Javascript, will simply output \"12\" as result.<br>Type-checking can be done at two stages -<br>Static - Data Types are checked before execution.<br>Dynamic - Data Types are checked during execution.<br>Python being an interpreted language, executes each statement line by line and thus type-checking is done on the fly, during execution. Hence, Python is a Dynamically Typed language."
         ]
     },
     {
-        "question": "",
+        "question": "What is an Interpreted language?",
         "answer": [
-            ""
+            "An Interpreted language executes its statements line by line. Languages such as Python, Javascript, R, PHP and Ruby are prime examples of Interpreted languages. Programs written in an interpreted language runs directly from the source code, with no intermediary compilation step"
         ]
     },
     {
-        "question": "",
+        "question": "What is PEP 8 and why is it important?",
         "answer": [
-            ""
+            "PEP stands for Python Enhancement Proposal. A PEP is an official design document providing information to the Python Community, or describing a new feature for Python or its processes. PEP 8 is especially important since it documents the style guidelines for Python Code. Apparently contributing in the Python open-source community requires you to follow these style guidelines sincerely and strictly."
         ]
     },
     {
-        "question": "",
+        "question": "How is memory managed in Python?",
         "answer": [
-            ""
+            "Memory management in Python is handled by the Python Memory Manager. The memory allocated by the manager is in form of a private heap space dedicated for Python. All Python objects are stored in this heap and being private, it is inaccessible to the programmer. Though, python does provide some core API functions to work upon the private heap space.<br>Additionally, Python has an in-built garbage collection to recycle the unused memory for the private heap space."
         ]
     },
     {
-        "question": "",
+        "question": "What are Python namespaces? Why are they used?",
         "answer": [
-            ""
+            "A namespace in Python ensures that object names in a program are unique and can be used without any conflict. Python implements these namespaces as dictionaries with 'name as key' mapped to a corresponding 'object as value'. This allows for multiple namespaces to use the same name and map it to a separate object. A few examples of namespaces are as follows:<br>Local Namespace includes local names inside a function. the namespace is temporarily created for a function call and gets cleared when the function returns.<br>Global Namespace includes names from various imported packages/ modules that is being used in the current project. This namespace is created when the package is imported in the script and lasts until the execution of the script.<br>Built-in Namespace includes built-in functions of core Python and built-in names for various types of exceptions.<br>Lifecycle of a namespace depends upon the scope of objects they are mapped to. If the scope of an object ends, the lifecycle of that namespace comes to an end. Hence, it isn't possible to access inner namespace objects from an outer namespace."
         ]
     }
 
