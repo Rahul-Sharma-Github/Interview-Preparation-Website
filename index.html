@@ -185,9 +185,15 @@
     <h2 class="mainTitle">Register Here</h2>
     <h4 class="subTitle">To Get Latest Information About our Content</h4>
 
+    <p class="validationtitle">Validations for Email</p>
+    <ul class="validations">
+        <li class="itm">Email must contain characters between a-z OR A-Z OR 0-9</li>
+        <li class="itm">Email must contain minimum of 8 character</li>
+    </ul>
+
     <form class="form">
         <label class="inputfieldlabel" for="email" name="email">Email Address</label>
-        <input class="inputfield" type="text" name="email" placeholder="Type Your Email Here" required>
+        <input class="inputfield" type="text" name="email" placeholder="Type Your Email Here" required pattern="[a-zA-Z0-9.-_]{8,}@[a-zA-Z.-]{5,}[.]{1}[a-zA-Z]{2,}">
         <button class="btn" type="submit" name="btn"><i class="fal fa-user-plus"></i>   REGISTER</button>
     </form>
 </div>
